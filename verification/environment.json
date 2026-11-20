@@ -1,0 +1,15 @@
+{
+  "verified_at": "2026-11-20T14:47:54.554428+08:00",
+  "python": "3.13.5",
+  "os": "Windows",
+  "os_release": "11",
+  "device": "CPU",
+  "environment": "Dedicated venv with system-site-packages (existing dependencies reused, base installation unchanged)",
+  "dependencies": {
+    "pytest": "8.3.4",
+    "torch": "2.14.1"
+  },
+  "upstream": "https://github.com/karpathy/micrograd",
+  "upstream_commit": "7bc720e951fe422b8f8814aa5aa1b64121d26b4c",
+  "scope_note": "Single Windows/Python CPU environment, not a security audit or multi-platform certification."
+}

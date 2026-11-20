@@ -1,3 +1,5 @@
+> 中文说明与本机验证结果：[README.zh-CN.md](README.zh-CN.md)。本仓库保留原作者、MIT 许可证及上游历史。
+
 
 # micrograd
 

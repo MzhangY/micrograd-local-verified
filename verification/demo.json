@@ -1,0 +1,67 @@
+{
+  "task": "XOR neural network training",
+  "seed": 42,
+  "steps": 400,
+  "parameters": 105,
+  "initial_mse": 0.964975579717389,
+  "final_mse": 7.209014291906156e-08,
+  "accuracy": 1.0,
+  "history": [
+    {
+      "step": 1,
+      "mse": 0.964975579717389
+    },
+    {
+      "step": 50,
+      "mse": 0.28216830202818255
+    },
+    {
+      "step": 100,
+      "mse": 0.03647447801253846
+    },
+    {
+      "step": 200,
+      "mse": 0.0004839042408842474
+    },
+    {
+      "step": 400,
+      "mse": 7.456323948029865e-08
+    }
+  ],
+  "predictions": [
+    {
+      "input": [
+        -1.0,
+        -1.0
+      ],
+      "target": -1.0,
+      "prediction": -1.0000042766586235
+    },
+    {
+      "input": [
+        -1.0,
+        1.0
+      ],
+      "target": 1.0,
+      "prediction": 0.9999482383579333
+    },
+    {
+      "input": [
+        1.0,
+        -1.0
+      ],
+      "target": 1.0,
+      "prediction": 0.9999557989975787
+    },
+    {
+      "input": [
+        1.0,
+        1.0
+      ],
+      "target": -1.0,
+      "prediction": -0.9994673563239249
+    }
+  ],
+  "device": "CPU",
+  "api_key_required": false
+}
